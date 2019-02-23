@@ -1,0 +1,11 @@
+{
+  "name": "es2018-esm-examples",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts":  {
+  },
+  "dependencies": {
+    "esm": "3.2.6"
+  }
+}
