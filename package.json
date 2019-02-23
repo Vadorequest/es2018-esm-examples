@@ -1,11 +1,17 @@
 {
   "name": "es2018-esm-examples",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "esm-loader.js",
   "license": "MIT",
-  "scripts":  {
+  "scripts": {
+    "node": "node ./index.js",
+    "esm-loader": "node esm-loader.js",
+    "node-with-esm": "node -r esm ./index.js",
+    "node-with-esm:watch": "nodemon -r esm ./index.js"
   },
   "dependencies": {
-    "esm": "3.2.6"
+    "esm": "3.2.6",
+    "lodash.map": "4.6.0",
+    "nodemon": "1.18.10"
   }
 }
